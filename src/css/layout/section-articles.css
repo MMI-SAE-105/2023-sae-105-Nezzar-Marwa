@@ -67,7 +67,8 @@
 .info{
     background-color: var(--article);
     margin-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
 }
 .info__title{
     font-family: 'Staatliches';
@@ -99,4 +100,16 @@
     margin-left: 20px;
     margin-right: 20px;
     padding-top: -15px;
+}
+.info__ligne{
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.info__fleche{
+    display: flex;
+    margin-left: 150px;
+}
+.info__billet{
+    margin-left: 105px;
+    margin-top: 20px;
 }
