@@ -113,3 +113,54 @@
     margin-left: 105px;
     margin-top: 20px;
 }
+
+/* les artistes */
+.artiste{}
+.artiste__title{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+.artiste__content{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 0;
+}
+.artiste__legende{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.artiste__img1{
+    width: 80%;
+    margin-left: 38px;
+}
+.artiste__img2{
+    width: 50%;
+    margin-left: 95px;
+}
+.artiste__img3{
+    width: 80%;
+    margin-left: 38px;
+}
+.artiste__img4{
+    width: 50%;
+    margin-left: 95px;
+}
