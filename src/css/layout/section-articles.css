@@ -34,6 +34,7 @@
 .orientalisme{
     background-color: var(--article);
     margin-top: 60px;
+    padding-bottom: 20px;
 }
 .orientalisme__title{
     font-family: 'Staatliches';
@@ -43,4 +44,21 @@
     line-height: 150%;
     color: black;
     text-align: center; padding-top: 20px;
+    padding-top: 40px;
+}
+.orientalisme__content{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.orientalisme__img{
+    width: 70%;
+    margin-left: 56px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
