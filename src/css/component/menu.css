@@ -33,6 +33,7 @@
     text-align: center;
     margin-top: 100px;
     padding-bottom: 20px;
+    text-decoration: none;
 }
 .menu__categorie2{
     font-family: 'Staatliches';
@@ -44,6 +45,7 @@
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-decoration: none;
 }
 
 .menu__categorie3{
@@ -54,6 +56,8 @@
     line-height: 20px;
     color: #FAFAFA;
     text-align: center;
+    text-decoration: none;
+    margin-top: -20px;
 }
 
 .menu__item{
@@ -63,5 +67,5 @@
     font-size: 14px;
     line-height: 20px;
     color: #FAFAFA;
-    
+    text-decoration: none;
 }
