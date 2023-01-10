@@ -11,3 +11,11 @@
 .header__logo>img{
     margin-top: 45px;
 }
+
+.header__lang{
+    margin-left: calc(85% - 30.665px );
+}
+
+.header__lang>img{
+    transform: translate(0 , -100px);
+}
