@@ -4,7 +4,7 @@
 }
 
 .header__logo{
-    margin-left: calc(50% - 30.665px );
+    margin-left: calc(52% - 30.665px );
     transform: translate(0 , 100px);
 }
 
@@ -18,4 +18,14 @@
 
 .header__lang>img{
     transform: translate(0 , -100px);
+}
+
+.menuBtn{
+    transform: translate(0 , -102px);
+    visibility: hidden;
+}
+
+.menu__icon{
+    visibility: visible;
+    width: 30px;
 }
