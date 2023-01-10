@@ -14,7 +14,7 @@
         <a class="header__logo" href="/index.html">
        <img src="/public/icon/logo.svg"></a>
        <a class="header__lang" href="/eng/index.html"><img src="/public/icon/languagesquare.svg"></a>
-    
+    <nav>
     <button class="menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
         <img src="/public/icon/hambergermenu.svg"></button>
        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
@@ -44,7 +44,8 @@
      </header>
      
 
-     <img src="/public/icon/projet-orient.svg">
+     <img class="projet" src="/public/icon/projet-orient.svg">
+
      <img src="/public/img/image-homepage 1.webp" alt="image introduisant le site"><img src="/public/icon/Art et orient découvrez notre exposition.svg">
      <h1>Une exposition inédite portant sur le thème de L’orientalisme</h1>
      <img src="/public/icon/pois.svg">

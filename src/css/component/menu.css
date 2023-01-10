@@ -1,9 +1,14 @@
 .menuBtn{
     position: relative;
-    background-color: var(--menu);
+    z-index: 10;
+    appearance: none;
     border: none;
-    margin-left: 330px;
+    background: none;
+    padding: 0;
+    width: 80px;
+    cursor: pointer;
     top: -135px;
+    margin-left: 310px;
 }
 
 
