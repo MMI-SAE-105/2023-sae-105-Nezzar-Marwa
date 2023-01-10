@@ -1,21 +1,62 @@
 .menuBtn{
-    transform: translate(0 , -102px);
+    position: relative;
     background-color: var(--menu);
-    border: 0;
+    border: none;
+    margin-left: 330px;
+    top: -135px;
 }
 
-.menu__icon{
-    visibility: visible;
-    width: 30px;
-}
 
 .menu{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 380px;
     height: 100vh;
     background-color: var(--menu);
     place-content: center;
     overflow: hidden;
+}
+
+.menu__categorie{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FAFAFA;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.menu__categorie2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FAFAFA;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.menu__categorie3{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.menu__item{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFA;
+    
 }
