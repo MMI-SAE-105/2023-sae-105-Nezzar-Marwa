@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" : class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Orient</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+
+</head>
+<body>
+ <header>
+    <a href="/index.html"></a>
+   <img src="/public/icon/logo.svg"> 
+   <img src="/public/icon/languagesquare.svg">
+
+<button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"><img src="/public/icon/hambergermenu.svg"></button>
+   <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms>
+    <h1>Les oeuvres incontournables</h1>
+<ul>
+    <a href="Oeuvre-1.html"><h1>Femme de Ouled el Naïl</h1></a>
+    <a href="Oeuvre-2.html"><h1>Sultane</h1></a>
+    <a href="Oeuvre-3.html"><h1>Le Charmeur de serpent</h1></a>
+    <a href="Oeuvre-4.html"><h1>Jeune femme sur une terasse</h1></a>
+    <a href="Oeuvre-5.html"><h1>Saada</h1></a>
+    <a href="Oeuvre-6.html"><h1>Femmes fellahs au bord du Nil</h1></a>
+    <a href="Oeuvre-7.html"><h1>Jeune femme de Laghouat</h1></a>
+    <a href="Oeuvre-8.html"><h1>Le bain des brahmines à Madura</h1></a>
+</ul>
+
+    <h1>Les artistes du mouvement</h1>
+<ul>
+    <a href="ALfred-chataud.html"><h1>Marc Alfred Chataud</h1></a>
+    <a href="Eugene-delacroix.html"><h1>Eugène Delacroix</h1></a>
+    <a href="Leon-belly.html"><h1>Léon Belly</h1></a>
+    <a href="Georges-gaste.html"><h1>Georges Gasté</h1></a>
+</ul>  
+    <a href="Orientalisme.html"><h1>L'orientalisme</h1></a>
+    <a href="Infos-pratiques.html"><h1>Infos pratiques</h1></a>
+ </header>
+ <img src="/public/icon/projet-orient.svg">
+
+<section>
+    <article>
+        <h1></h1>
+    </article>
+</section>
+</body>
+</html>
