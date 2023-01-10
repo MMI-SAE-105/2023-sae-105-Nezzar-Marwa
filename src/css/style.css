@@ -16,4 +16,6 @@
 
 @import "layout/section-homepage.css";
 
-@import "layout/section-articles.css"
+@import "layout/section-articles.css";
+
+@import "component/homepage-button.css";

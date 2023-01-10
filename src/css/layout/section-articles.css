@@ -3,7 +3,7 @@
     margin-top: 30px;
 }
 
-.title{
+.oeuvre__title{
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
@@ -11,4 +11,16 @@
     line-height: 150%;
     color: black;
     margin-left: 15px;
+}
+
+.oeuvre__content{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: black;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
