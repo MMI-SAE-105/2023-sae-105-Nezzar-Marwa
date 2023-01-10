@@ -69,3 +69,34 @@
     margin-top: 60px;
     padding-bottom: 20px;
 }
+.info__title{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+}
+.info__content{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info__content2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: -15px;
+}
