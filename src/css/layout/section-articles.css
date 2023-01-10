@@ -29,3 +29,8 @@
     width: 80%;
     margin-left: 36px;
 }
+
+/* article sur le mouvement artistique */
+.orientalisme{
+    background-color: var(--article);
+}
