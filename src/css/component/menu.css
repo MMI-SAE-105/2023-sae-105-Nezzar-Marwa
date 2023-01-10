@@ -1,9 +1,21 @@
 .menuBtn{
     transform: translate(0 , -102px);
-    visibility: hidden;
+    background-color: var(--menu);
+    border: 0;
 }
 
 .menu__icon{
     visibility: visible;
     width: 30px;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--menu);
+    place-content: center;
+    overflow: hidden;
 }

@@ -10,13 +10,13 @@
 
 </head>
 <body>
- <header>
-    <a href="/index.html">
-   <img src="/public/icon/logo.svg"></a>
-   <img src="/public/icon/languagesquare.svg">
-
-<button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"><img src="/public/icon/hambergermenu.svg"></button>
-   <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms>
+    <header class="header">
+        <a class="header__logo" href="/index.html">
+       <img src="/public/icon/logo.svg"></a>
+       <a class="header__lang" href="/eng/index.html"><img src="/public/icon/languagesquare.svg"></a>
+    
+    <button class="menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"><img class="menu__icon" src="/public/icon/hambergermenu.svg"></button>
+       <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms>
     <h1>Les oeuvres incontournables</h1>
 <ul>
     <a href="Oeuvre-1.html"><h1>Femme de Ouled el Naïl</h1></a>
