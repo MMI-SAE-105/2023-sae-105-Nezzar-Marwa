@@ -33,4 +33,14 @@
 /* article sur le mouvement artistique */
 .orientalisme{
     background-color: var(--article);
+    margin-top: 60px;
+}
+.orientalisme__title{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    text-align: center; padding-top: 20px;
 }
