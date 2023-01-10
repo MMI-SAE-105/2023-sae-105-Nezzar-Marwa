@@ -8,6 +8,28 @@
         <script defer src="https://unpkg.com/alpinejs"></script>
     </head>
     <body>
-        
+     <header>
+       <img src="/public/icon/logo.svg"> 
+       <img src="/public/icon/languagesquare.svg">
+    
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"><img src="/public/icon/hambergermenu.svg"></button>
+       <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms>
+        <h1>oeuvres</h1>
+    <ul>
+        <a href="k-12.html"><h1>K-12 un film à ne pas manquer</h1></a>
+        <a href="alice.html"><h1>Alice et le pays des merveilles</h1></a>
+        <a href="freak.html"><h1>Freak une musique surprenante</h1></a>
+        <a href="château.html"><h1>Le château de Craigdarroch</h1></a>
+        <a href="discrimination.html"><h1>la monté des discriminations</h1></a>
+        <a href="espoir.html"><h1>Une lueur d'espoir</h1></a>
+    </ul>
+
+        <h1>artistes</h1>
+    <ul>
+        <a href="a-propos.html"><h1>Marc Alfred Chataud</h1></a>
+        <a href="Contact.html"><h1>Eugène Delacroix</h1></a>
+        <a href="Autres projets.html"></a>
+  </ul>
+     </header>
     </body>
     </html>
