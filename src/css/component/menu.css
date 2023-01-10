@@ -1,0 +1,9 @@
+.menuBtn{
+    transform: translate(0 , -102px);
+    visibility: hidden;
+}
+
+.menu__icon{
+    visibility: visible;
+    width: 30px;
+}
