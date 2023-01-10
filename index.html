@@ -1,137 +1,17 @@
-    <!DOCTYPE html>
-    <html lang="en" x-data="{menuIsOpen: false}" : class="{noscroll:menuIsOpen,}">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projet Orient</title>
-        <link rel="stylesheet" href="/src/css/style.css">
-        <script defer src="https://unpkg.com/alpinejs"></script>
-
-    </head>
-    <body>
-     <header>
-        <a href="/index.html">
-       <img src="/public/icon/logo.svg"></a>
-       <img src="/public/icon/languagesquare.svg">
-    
-    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"><img src="/public/icon/hambergermenu.svg"></button>
-       <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms>
-        <h1>Les oeuvres incontournables</h1>
-    <ul>
-        <a href="Oeuvre-1.html"><h1>Femme de Ouled el Naïl</h1></a>
-        <a href="Oeuvre-2.html"><h1>Sultane</h1></a>
-        <a href="Oeuvre-3.html"><h1>Le Charmeur de serpent</h1></a>
-        <a href="Oeuvre-4.html"><h1>Jeune femme sur une terasse</h1></a>
-        <a href="Oeuvre-5.html"><h1>Saada</h1></a>
-        <a href="Oeuvre-6.html"><h1>Femmes fellahs au bord du Nil</h1></a>
-        <a href="Oeuvre-7.html"><h1>Jeune femme de Laghouat</h1></a>
-        <a href="Oeuvre-8.html"><h1>Le bain des brahmines à Madura</h1></a>
-    </ul>
-
-        <h1>Les artistes du mouvement</h1>
-    <ul>
-        <a href="ALfred-chataud.html"><h1>Marc Alfred Chataud</h1></a>
-        <a href="Eugene-delacroix.html"><h1>Eugène Delacroix</h1></a>
-        <a href="Leon-belly.html"><h1>Léon Belly</h1></a>
-        <a href="Georges-gaste.html"><h1>Georges Gasté</h1></a>
-  </ul>  
-        <a href="Orientalisme.html"><h1>L'orientalisme</h1></a>
-        <a href="Infos-pratiques.html"><h1>Infos pratiques</h1></a>
-     </header>
-     <img src="/public/icon/projet-orient.svg">
-     <img src="/public/img/image-homepage 1.webp" alt="image introduisant le site"><img src="/public/icon/Art et orient découvrez notre exposition.svg">
-     <h1>Une exposition inédite portant sur le thème de L’orientalisme</h1>
-     <img src="/public/icon/pois.svg">
-
-     <section>
-        <h1>L'orientalisme</h1>
-        <p>L'orientalisme est un mouvement littéraire et artistique né en Europe occidentale au XVIIIe siècle. Par son ampleur et sa vogue, tout au long du XIXe siècle, il marque l'intérêt et la curiosité des artistes et des écrivains pour les pays du couchant (le Maghreb) ou du Levant (le Moyen-Orient).</p>
-        <img src="/public/icon/voir-plus.svg">
-     </section>
-     <img src="/public/icon/homepage-stripes.svg">
-     <h1>Avant de découvrir cette exposition voici un petit avant goût</h1>
-
-     <section>
-        <h1>8 oeuvres  à ne pas manquer en 2023</h1>
-        <div>
-            <img src="/public/img/Oeuvre-Alfred-Chataud 1.webp">
-                <h1>Femme de ouled el naïl (1908)</h1>
-            <img src="/public/img/oeuvre-2 1.webp" alt="oeuvre nommé Sultane">
-                <h1>Sultane(1747)</h1>
-            <img src="/public/img/delacroix-05 1.webp" alt="oeuvre nommée Saada">
-                <h1>Saada(1845)</h1>
-            <img src="/public/img/Léon_Belly_-_01 1.webp" alt="oeuvre nommée Femmes fellahs au bord du Nil ">
-                <h1>Femmes fellahs au bord du Nil(1856)</h1>
-            <img src="/public/img/oeuvre 4 1.webp" alt="oeuvre jeune femme sur une terrasse">
-                <h1>Jeune femme sur une terrasse(1889)</h1>
-            <img src="/public/img/132px-Georges_Gasté_2 1.webp" alt="oeuvre nommée jeune fille de Laghouat">
-                <h1>Jeune fille de Laghouat(1894)</h1>
-            <img src="/public/img/oeuvre-3 1.webp" alt=" oeuvre le charmeur de serpent">
-                <h1>Le charmeur de serpent(1908)</h1>
-            <img src="/public/img/Georges_Gasté_4 1.webp" alt="oeuvre nommée Le Bain des brahmines à Madura">
-                <h1>Le Bain des brahmines à Madura(1910)</h1>
-        </div>
-     </section>
-       <h1>Sans oublier</h1>
-     <section>
-        <h1>Ces 4 artistes incontournables</h1>
-        <div>
-            <img src="/public/img/alfred-chataud 1.webp">
-                <h1>Marc Alfred Chataud</h1>
-            <img src="/public/img/delacroix 1.webp">
-                <h1>Eugène Delacroix</h1>
-            <img src="/public/img/Léon_belly 1.webp">
-                <h1>Léon Belly</h1>
-            <img src="/public/img/Georges-Gasté 1.webp">
-                <h1>George gasté</h1>
-           </div>
-        </section>
-    <h1>Vous voila prêts pour ce merveilleux voyage.</h1>
-    <h2>Découvrez ici le déroulement de l’exposition</h2>
-    <img src="/public/icon/arrowdown.svg">
-    <img src="/public/icon/info-pratique.svg">
-    
-    <footer x-data="{interaction: 0 }">
-        <img src="/public/icon/logo.svg">
-        <a href="/Infos-pratiques.html">
-        <h1>Informations pratiques</h1></a>
-        <section>
-            <header>
-                <button @click="interaction = 3">Formulaire de contact</button>
-              </header>
-              <form action="#">
-                <div x-show="interaction=== 3">
-                    <div @click="interaction = 0"><a><img src="./public/icon/fermer.svg" alt="fermeture du menu principale"/></a></div>
-                    <div>
-                        <p>Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à me la poser.</p>
-                        <p>Les champs contenant une "<span class="obligatoire">*</span>" sont obligatoires.</p>
-                      <label class="formulaire__type" for="Prénom*">Prénom<span class="obligatoire">*</span> </label>
-                      <input class="formulaire__case" type="text" name="Prénom" id="Prénom">
-                    </div>
-                    <div>
-                        <label class="formulaire__type" for="Nom*">Nom<span class="obligatoire">*</span></label>
-                        <input class="formulaire__case" type="text" name="Nom" id="Nom">
-                    </div>
-                    <div>
-                        <label class="formulaire__type" for="Mail*">Mail<span class="obligatoire">*</span></label>
-                        <input class="formulaire__case" type="email" name="Mail">
-                    </div>
-                    <div>
-                        <label class="formulaire__type" for="Téléphone*">Téléphone<span class="obligatoire">*</span></label>
-                         <input class="formulaire__case" type="text" name="Téléphone">
-                    </div>
-                    <div>
-                     <label class="formulaire__type" for="message*">Message<span class="obligatoire">*</span></label>
-                    <textarea class="formulaire__case" id="msg" name="message" rows="5"></textarea>
-                    </div>
-                    <button class="formulaire__send" type="submit">Send</button>
-                </div>
-              </form>
-        </section>
-        <img src="/public/icon/Line 5.svg">
-        <p>Projet réalisé dans le cadre d’un exercice 
-            pédagogique au département MMI à Montbéliard</p>
-    </footer>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./fr/index.html ">Accueil en français</a></li>
+            <li><a href="./en/index.html">Home in english</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
