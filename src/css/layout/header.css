@@ -1,1 +1,13 @@
-.header{}
+.header{
+    height: 150px;
+    background-color: var(--menu);
+}
+
+.header__logo{
+    margin-left: calc(50% - 30.665px );
+    transform: translate(0 , 100px);
+}
+
+.header__logo>img{
+    margin-top: 45px;
+}
