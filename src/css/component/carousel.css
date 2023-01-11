@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+}
+
+.carrousel img{
+    max-width:100%;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+.carrousel_parent-ecrans{
+    display:flex;
+    width:100%;
+    overflow-x:scroll;
+    scroll-behavior:smooth;
+    scroll-snap-type:x mandatory; 
+}
+
+.carrousel_ecran{
+    width:100%;
+    flex:none;
+    scroll-snap-align: start;
+}
+
+.carrousel_ecran figure{
+    margin:0;
+}
+
+.carrousel {
+    position: relative;
+}
+
+.carrousel_btn {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+}
+
+.carrousel_btn-avant {
+    left: 0;
+}
+  
+  .carrousel_btn-apres {
+    right: 0;
+}
+
+.caroussel_liste-liens{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:0;
+    margin:0;
+    gap:1rem;
+}
+
+
+
+li.actif {
+    background-color:white;
+}
+
+.c__artiste{
+    text-align: center;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.carousel__title{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+}
+
+.c__img{
+    width: 50%;
+}
