@@ -48,5 +48,6 @@
     background-color: var(--article);
     border:none;
     padding: 8px;
+    margin-bottom: 10px;
 }
     
