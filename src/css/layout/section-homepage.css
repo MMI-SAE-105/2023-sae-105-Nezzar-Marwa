@@ -91,3 +91,26 @@
     margin-left: 40px;
     margin-right: 40px;
 }
+
+.homepage__title4{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: black;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 80px;
+    padding-bottom: 10px;
+}
+
+.homepage__fleche{
+    display: flex;
+    margin-left: 160px;
+}
+
+.homepage__btn{
+    margin-left: 63px;
+    padding-top: 30px;
+}
