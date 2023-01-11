@@ -33,7 +33,7 @@
 
 .carrousel_btn {
     position: absolute;
-    top: 50%; 
+    top: 30%; 
     transform: translateY(-50%); 
     width: 2rem;
     height: 2rem;
@@ -88,4 +88,8 @@ li.actif {
 
 .c__img{
     width: 50%;
+}
+
+.c__img2{
+    width: 60%;
 }

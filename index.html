@@ -62,24 +62,62 @@
      <section>
 
 
-        <h1>8 oeuvres  à ne pas manquer en 2023</h1>
-        <div>
-            <img src="/public/img/Oeuvre-Alfred-Chataud 1.webp">
-                <h1>Femme de ouled el naïl (1908)</h1>
-            <img src="/public/img/oeuvre-2 1.webp" alt="oeuvre nommé Sultane">
-                <h1>Sultane(1747)</h1>
-            <img src="/public/img/delacroix-05 1.webp" alt="oeuvre nommée Saada">
-                <h1>Saada(1845)</h1>
-            <img src="/public/img/Léon_Belly_-_01 1.webp" alt="oeuvre nommée Femmes fellahs au bord du Nil ">
-                <h1>Femmes fellahs au bord du Nil(1856)</h1>
-            <img src="/public/img/oeuvre 4 1.webp" alt="oeuvre jeune femme sur une terrasse">
-                <h1>Jeune femme sur une terrasse(1889)</h1>
-            <img src="/public/img/132px-Georges_Gasté_2 1.webp" alt="oeuvre nommée jeune fille de Laghouat">
-                <h1>Jeune fille de Laghouat(1894)</h1>
-            <img src="/public/img/oeuvre-3 1.webp" alt=" oeuvre le charmeur de serpent">
-                <h1>Le charmeur de serpent(1908)</h1>
-            <img src="/public/img/Georges_Gasté_4 1.webp" alt="oeuvre nommée Le Bain des brahmines à Madura">
-                <h1>Le Bain des brahmines à Madura(1910)</h1>
+        <h1 class="carousel__title">8 oeuvres  à ne pas manquer en 2023</h1>
+        <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
+            <button @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt;</button><button @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+            <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+
+                              [...$refs.parent.children]
+                               .find(e=>e.getBoundingClientRect().x>=0)
+                               .id">
+                <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/Oeuvre-Alfred-Chataud 1.webp" alt="artiste alfred Chataud">
+                        <figcaption class="c__artiste">Femme de ouled el naïl(1908)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/oeuvre-2 1.webp" alt="eugène delacroix">
+                        <figcaption class="c__artiste">Sultane(1747)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img class="c__img2" src="/public/img/delacroix-05 1.webp" alt="Léon belly">
+                        <figcaption class="c__artiste">Saada(1845)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/Léon_Belly_-_01 1.webp" alt="image ecran 4">
+                        <figcaption class="c__artiste">Femmes fellahs au bord du Nil(1856)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-5" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/oeuvre 4 1.webp" alt="Léon belly">
+                        <figcaption class="c__artiste">Jeune femme sur une terrasse(1889)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-6" class="carrousel_ecran">
+                    <figure>
+                        <img class="c__img2" src="/public/img/132px-Georges_Gasté_2 1.webp" alt="Léon belly">
+                        <figcaption class="c__artiste">Jeune fille de Laghouat(1894)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-7" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/oeuvre-3 1.webp" alt="Léon belly">
+                        <figcaption class="c__artiste">Le charmeur de serpent(1908)</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-8" class="carrousel_ecran">
+                    <figure>
+                        <img class="c__img2" src="/public/img/Georges_Gasté_4 1.webp" alt="Léon belly">
+                        <figcaption class="c__artiste">Le Bain des brahmines à Madura(1910)</figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
      </section>
 
