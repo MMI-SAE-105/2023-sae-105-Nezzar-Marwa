@@ -55,20 +55,21 @@
 </section>
 <a href="/index.html"><img class="homepage__link" src="/public/icon/homepage.svg"></a>
 
-<footer x-data="{interaction: 0 }">
-    <img src="/public/icon/logo.svg">
+<footer class="footer" x-data="{interaction: 0 }">
+    <a href="/index.html"><img class="footer__logo" src="/public/icon/logo.svg"></a>
     <a href="/Infos-pratiques.html">
-    <h1>Informations pratiques</h1></a>
-    <section>
+    <h1 class="footer__title">Informations pratiques</h1></a>
+    
+    <section class="formulaire">
         <header>
-            <button @click="interaction = 3">Formulaire de contact</button>
+            <button class="footer__btn" @click="interaction = 3"><h1 class="footer__title">Formulaire de contact</h1></button>
           </header>
           <form action="#">
-            <div x-show="interaction=== 3">
-                <div @click="interaction = 0"><a><img src="./public/icon/fermer.svg" alt="fermeture du menu principale"/></a></div>
+            <div x-show="interaction=== 3" x-transition.duration.800ms>
+                <div @click="interaction = 0"><a><img class="contact__fermer" src="./public/icon/fermer-blanc.svg" alt="fermeture du menu principale"/></a></div>
                 <div>
-                    <p>Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à me la poser.</p>
-                    <p>Les champs contenant une "<span class="obligatoire">*</span>" sont obligatoires.</p>
+                    <p class="contact__info">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à me la poser.</p>
+                    <p class="contact__info">Les champs contenant une "<span class="obligatoire">*</span>" sont obligatoires.</p>
                   <label class="formulaire__type" for="Prénom*">Prénom<span class="obligatoire">*</span> </label>
                   <input class="formulaire__case" type="text" name="Prénom" id="Prénom">
                 </div>
@@ -92,8 +93,8 @@
             </div>
           </form>
     </section>
-    <img src="/public/icon/Line 5.svg">
-    <p>Projet réalisé dans le cadre d’un exercice 
+    <img class="footer__line" src="/public/icon/Line 5.svg">
+    <p class="footer__content">Projet réalisé dans le cadre d’un exercice 
         pédagogique au département MMI à Montbéliard</p>
 </footer>
 </body>
