@@ -78,11 +78,11 @@
             <button class="footer__btn" @click="interaction = 3"><h1 class="footer__title">Formulaire de contact</h1></button>
           </header>
           <form action="#">
-            <div x-show="interaction=== 3">
-                <div @click="interaction = 0"><a><img class="contact__fermer" src="./public/icon/fermer.svg" alt="fermeture du menu principale"/></a></div>
+            <div x-show="interaction=== 3" x-transition.duration.800ms>
+                <div @click="interaction = 0"><a><img class="contact__fermer" src="./public/icon/fermer-blanc.svg" alt="fermeture du menu principale"/></a></div>
                 <div>
                     <p class="contact__info">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à me la poser.</p>
-                    <p>Les champs contenant une "<span class="obligatoire">*</span>" sont obligatoires.</p>
+                    <p class="contact__info">Les champs contenant une "<span class="obligatoire">*</span>" sont obligatoires.</p>
                   <label class="formulaire__type" for="Prénom*">Prénom<span class="obligatoire">*</span> </label>
                   <input class="formulaire__case" type="text" name="Prénom" id="Prénom">
                 </div>
