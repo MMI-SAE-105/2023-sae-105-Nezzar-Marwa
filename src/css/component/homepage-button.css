@@ -1,5 +1,6 @@
 .homepage__link{
     margin-top: 20px;
-    margin-left: 100px;
-    margin-bottom: 40px;
+    padding-bottom: 30px;
+    display: block;
+    margin: auto;
 }

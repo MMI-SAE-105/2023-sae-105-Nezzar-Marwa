@@ -105,15 +105,17 @@
     padding-top: -15px;
 }
 .info__ligne{
-    margin-left: 28px;
+    display: block;
+    margin: auto;
     margin-top: 30px;
 }
 .info__fleche{
     display: flex;
-    margin-left: 150px;
+    margin:auto
 }
 .info__billet{
-    margin-left: 105px;
+    display: block;
+    margin: auto;
     margin-top: 20px;
 }
 

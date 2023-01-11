@@ -4,7 +4,8 @@
 }
 
 .footer__logo{
-    margin-left: 150px;
+    display: block;
+    margin: auto;
     margin-bottom: 20px;
 }
 
@@ -24,7 +25,8 @@
 }
 
 .footer__line{
-    margin-left: 28px;
+    display: block;
+    margin: auto;
 }
 
 .footer__content{

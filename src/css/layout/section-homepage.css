@@ -1,6 +1,6 @@
 .projet{
-    margin-left: 22px;
-    padding-top: 5px;
+    display: block;
+    margin: auto;
 }
 
 .homepage__highlight{
@@ -69,13 +69,15 @@
 }
 
 .homepage__plus{
-    margin-left: 160px;
+    display: block;
+    margin: auto;
     padding-bottom: 10px;
 }
 
 .homepage__stripes{
     padding-top: 30px;
-    margin-left: 23px;
+    display: block;
+    margin:auto
 }
 
 .homepage__title3{
@@ -107,11 +109,12 @@
 
 .homepage__fleche{
     display: flex;
-    margin-left: 160px;
+    margin:auto
 }
 
 .homepage__btn{
-    margin-left: 63px;
+    display: block;
+    margin: auto;
     padding-top: 30px;
     margin-bottom: 30px;
 }
