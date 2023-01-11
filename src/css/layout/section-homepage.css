@@ -40,3 +40,34 @@
     margin-top: -100px;
     z-index: -1;
 }
+
+.homepage__block{
+    background-color: var(--article);
+}
+
+.homepage__title2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.homepage__content{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.homepage__plus{
+    margin-left: 160px;
+}
