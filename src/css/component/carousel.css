@@ -74,6 +74,7 @@ li.actif {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    padding-top: 10px;
 }
 
 .carousel__title{
@@ -92,4 +93,10 @@ li.actif {
 
 .c__img2{
     width: 60%;
+}
+
+.carousel__background{
+    background-color: var(--article);
+    padding-top: 20px;
+    
 }
