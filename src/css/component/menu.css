@@ -1,6 +1,6 @@
 .menuBtn{
     position: relative;
-    z-index: 10;
+    z-index: 20;
     appearance: none;
     border: none;
     background: none;
@@ -19,7 +19,7 @@
     height: 100vh;
     background-color: var(--menu);
     place-content: center;
-    overflow: hidden;
+    z-index: 10;
 }
 
 .menu__categorie{
