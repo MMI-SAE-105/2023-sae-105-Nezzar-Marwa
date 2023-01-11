@@ -1,0 +1,18 @@
+.formulaire{    
+    background-color: var(--menu);
+}
+
+.contact__fermer{
+    margin-left: 310px;
+}
+
+.contact__info{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--fond);
+    margin-left: 10px;
+}
+    
