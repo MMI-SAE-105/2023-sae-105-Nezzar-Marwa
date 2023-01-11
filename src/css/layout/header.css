@@ -5,20 +5,23 @@
 }
 
 .header__logo{
-    margin-left: calc(52% - 30.665px );
-    transform: translate(0 , 100px);
+    display: grid;
+    margin: auto;
 }
 
 .header__logo>img{
-    margin-top: 45px;
+    padding-top: 60px;
+    margin:auto
 }
 
 .header__lang{
-    margin-left: calc(80% - 30.665px );
+   display: grid; 
+   margin-top: -90px;
+   margin-left: 20px;
+}
+.lang__img{
+    margin-top: -20px;
 }
 
-.header__lang>img{
-    transform: translate(0 , -100px);
-}
 
 

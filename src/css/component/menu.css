@@ -6,8 +6,13 @@
     background: none;
     padding: 0;
     cursor: pointer;
-    top: -135px;
-    margin-left: 335px;
+    display: flex; 
+    float: right;
+}
+
+.menu__img{
+    margin-top: -30px;
+    margin-right: 20px;
 }
 
 
@@ -19,6 +24,7 @@
     height: 100vh;
     background-color: var(--menu);
     place-content: center;
+    display: grid;
     z-index: 10;
 }
 
