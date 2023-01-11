@@ -69,12 +69,12 @@
 <a href="/index.html"><img class="homepage__link" src="/public/icon/homepage.svg"></a>
 
 <footer class="footer" x-data="{interaction: 0 }">
-    <img src="/public/icon/logo.svg">
+    <a href="/index.html"><img class="footer__logo" src="/public/icon/logo.svg"></a>
     <a href="/Infos-pratiques.html">
-    <h1>Informations pratiques</h1></a>
+    <h1 class="footer__title">Informations pratiques</h1></a>
     <section>
         <header>
-            <button @click="interaction = 3">Formulaire de contact</button>
+            <button class="footer__btn" @click="interaction = 3"><h1 class="footer__title">Formulaire de contact</h1></button>
           </header>
           <form action="#">
             <div x-show="interaction=== 3">
@@ -105,8 +105,8 @@
             </div>
           </form>
     </section>
-    <img src="/public/icon/Line 5.svg">
-    <p>Projet réalisé dans le cadre d’un exercice 
+    <img class="footer__line" src="/public/icon/Line 5.svg">
+    <p class="footer__content">Projet réalisé dans le cadre d’un exercice 
         pédagogique au département MMI à Montbéliard</p>
 </footer>
 </body>

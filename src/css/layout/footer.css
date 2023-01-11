@@ -1,3 +1,39 @@
 .footer{
     background-color: var(--menu);
+    height: 290px;
+}
+
+.footer__logo{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.footer__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--fond);
+    margin-left: 20px;
+}
+
+.footer__btn{
+    background-color: var(--menu);
+    border: none;
+    margin-left: none;
+}
+
+.footer__line{
+    margin-left: 28px;
+}
+
+.footer__content{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--fond);
+    margin-left: 20px;
+    margin-right: 10px;
 }
